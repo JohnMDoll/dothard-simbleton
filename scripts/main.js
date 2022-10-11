@@ -3,8 +3,8 @@ import { NewYorkBusinessList } from "./NewYorkBusinesses.js"
 import { MFGBusinessList } from "./ManufacturingBusinesses.js"
 import { AgentList,AgentMap } from "./AgentList.js"
 const contentTarget = document.querySelector("#content")
-    // let content=BusinessList()
-// contentTarget.innerHTML = content
+    let content=BusinessList()
+contentTarget.innerHTML = content
 const renderHTML = () => {
   contentTarget.innerHTML = `
   <input type="text" placeholder="Enter business name..." id="companySearch" />
